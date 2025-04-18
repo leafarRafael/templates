@@ -1,0 +1,23 @@
+name: "[Epic] Infra-Setup"
+description: "Template das atribuições da Infrastrutura do projeto"
+title: "[Epic] Infra-Setup"
+labels:
+  - Epic
+assignees:
+  - leafarRafael-Dev
+  
+body:
+  - type: markdown
+    attributes:
+      value: |
+        "Definição das necessidades de infrastrutura do projeto"
+
+  - type: input
+    id: objetivo
+    attributes:
+      label: Objetivo
+      description: Qual o objetivo principal desta tarefa?
+      placeholder: Ex Configurar arquivos essenciais para orquestração com Docker.
+    validations:
+      required: true
+

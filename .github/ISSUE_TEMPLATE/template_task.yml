@@ -22,16 +22,14 @@ body:
       placeholder: "Describe in detail the scope, context and components of this epic"
 
   - type: textarea
-    attributes:
-      label: "Define EPIC acceptance criteria"
-      description: "Type as per the example to create checkboxes"
-      placeholder: "- [ ] Item 1\n- [ ] Item 2\n- [ ] Item 3"
-    validations:
-      required: false
-
-  - type: textarea
     id: related-issues
     attributes:
       label: "Related Stories / Issues"
       description: "List all stories or tasks related to this epic"
       placeholder: "- [ ] #123 Create VPC\n- [ ] #124 Configure CI/CD"
+
+  - type: textarea
+    attributes:
+      label: "Define EPIC acceptance criteria"
+      description: "Type as per the example to create checkboxes"
+      placeholder: "- [ ] Item 1\n- [ ] Item 2\n- [ ] Item 3"

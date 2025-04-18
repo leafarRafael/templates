@@ -4,3 +4,7 @@ title: "Example: [EPIC] Infrastructure; [EPIC] Backend; [EPIC] Frontend"
 assignees:
   -leafarRafael
 
+body:
+  type: textarea
+  attributes:
+    description: "Describe the objectives of this EPIC"

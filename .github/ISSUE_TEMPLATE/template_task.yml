@@ -2,7 +2,7 @@ name: "EPIC template"
 description: "This template is intended for creating project epics"
 title: "Ex: [EPIC] Infrastructure; [EPIC] Backend; [EPIC] Frontend"
 assignees:
-  -leafarRafael
+  - leafarRafael-Dev
 
 body:
   type: input

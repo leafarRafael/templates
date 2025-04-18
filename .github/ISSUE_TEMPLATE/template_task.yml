@@ -12,7 +12,7 @@ body:
     attributes:
       label: "Short description"
       description: "Describe the objectives of this EPIC"
-      placeholder: "Describe here"
+      placeholder: "**Describe here**"
 
   - type: textarea
     id: description
@@ -20,18 +20,11 @@ body:
       label: "Detailed description"
       description: "Describe the elements that are part of this epic."
       placeholder: "Digite here"
-    
-  - type: checkboxes
-    attributes:
-      label: "Checklist personalizável"
-      description: "Adicione seus próprios itens abaixo do exemplo"
-      options:
-        - label: "Exemplo: Item pré-definido (opcional)"
-          required: false
+
   - type: textarea
     attributes:
-      label: "Adicionar itens ao checklist"
-      description: "Digite cada item em uma nova linha (serão convertidos em checkboxes)"
+      label: "Define EPIC acceptance criteria"
+      description: "Type as per the example to create checkboxes"
       placeholder: "- [ ] Item 1\n- [ ] Item 2\n- [ ] Item 3"
     validations:
       required: false

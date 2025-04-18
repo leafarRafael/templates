@@ -8,18 +8,18 @@ assignees:
 
 body:
   - type: input
-    id: epic-template
+    id: short-description
     attributes:
       label: "Short description"
       description: "Describe the objectives of this EPIC"
-      placeholder: "**Describe here**"
+      placeholder: "Describe the objectives of this epic here"
 
   - type: textarea
     id: description
     attributes:
       label: "Detailed description"
       description: "Describe the elements that are part of this epic."
-      placeholder: "Digite here"
+      placeholder: "Describe in detail the scope, context and components of this epic"
 
   - type: textarea
     attributes:
@@ -28,3 +28,10 @@ body:
       placeholder: "- [ ] Item 1\n- [ ] Item 2\n- [ ] Item 3"
     validations:
       required: false
+
+  - type: textarea
+    id: related-issues
+    attributes:
+      label: "Related Stories / Issues"
+      description: "List all stories or tasks related to this epic"
+      placeholder: "- [ ] #123 Create VPC\n- [ ] #124 Configure CI/CD"

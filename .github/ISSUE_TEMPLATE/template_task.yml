@@ -12,3 +12,11 @@ body:
       label: "Short description"
       description: "Describe the objectives of this EPIC"
       placeholder: "Describe here"
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Detailed description"
+      description: "Describe the elements that are part of this epic."
+      placeholder: "Digite here"

@@ -6,9 +6,9 @@ assignees:
   - leafarRafael-Dev
 
 body:
-  type: input
-  id: epic-template
-  attributes:
-    label: "Short description"
-    description: "Describe the objectives of this EPIC"
-    placeholder: "Describe here"
+  - type: input
+    id: epic-template
+    attributes:
+      label: "Short description"
+      description: "Describe the objectives of this EPIC"
+      placeholder: "Describe here"

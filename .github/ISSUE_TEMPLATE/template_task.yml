@@ -1,10 +1,13 @@
 name: "EPIC template"
 description: "This template is intended for creating project epics"
-title: "Example: [EPIC] Infrastructure; [EPIC] Backend; [EPIC] Frontend"
+title: "Ex: [EPIC] Infrastructure; [EPIC] Backend; [EPIC] Frontend"
 assignees:
   -leafarRafael
 
 body:
-  type: textarea
+  type: input
+  id: epic-template
   attributes:
+    label: "Short description"
     description: "Describe the objectives of this EPIC"
+    placeholder: "Describe here"
